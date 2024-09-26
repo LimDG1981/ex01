@@ -1,0 +1,42 @@
+username = 'elastic'
+
+# 위 명령 실행 결과의 마지막 부분인 PASSWORD elastic 값으로 교체 필요
+password = 'Fv0PACJW1Bao26U-jWFC'
+
+es = Elasticsearch(['https://localhost:9200'], basic_auth=(username, password), ca_certs="/home/code/elasticsearch-8.15.1/config/certs/http_ca.crt")
+
+resp = dict(es.info())
+
+resp
+
+
+
+
+
+
+
+username = 'elastic'
+
+# 위 명령 실행 결과의 마지막 부분인 PASSWORD elastic 값으로 교체 필요
+password = 'ikJNU1It6HrWj9iLDVTF'
+
+es = Elasticsearch(['https://localhost:9200'], basic_auth=(username, password), ca_certs="/content/elasticsearch-8.8.0/config/certs/http_ca.crt")
+
+resp = dict(es.info())
+
+resp
+
+
+
+
+
+username = 'elastic'
+
+# 위 명령 실행 결과의 마지막 부분인 PASSWORD elastic 값으로 교체 필요
+password = 'Fv0PACJW1Bao26U-jWFC'
+
+es = Elasticsearch(['https://localhost:9200'], basic_auth=(username, password), ca_certs="/home/code/elasticsearch-8.15.1/config/certs/http_ca.crt")
+
+resp = dict(es.info())
+
+resp
